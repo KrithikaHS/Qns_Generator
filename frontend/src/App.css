@@ -1,0 +1,274 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+.file-input {
+  margin-bottom: 1rem;
+}
+
+.primary-btn, .secondary-btn, .download-btn {
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primary-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+.secondary-btn {
+  background-color: #e2e6ea;
+  color: #333;
+}
+
+.secondary-btn:hover {
+  background-color: #d6d8db;
+}
+
+.download-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.download-btn:hover {
+  background-color: #1e7e34;
+}
+
+.loading-text {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #555;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.text-box {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.summary-box {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.questions-list {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.question-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.hero p {
+  color: #555;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.file-upload {
+  display: block;
+  background: #f0f4f8;
+  border: 2px dashed #ccc;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.3s ease;
+}
+
+.file-upload:hover {
+  background: #e2e8f0;
+}
+
+.file-upload input {
+  display: none;
+}
+
+.upload-btn, .download-btn, .toggle-text-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  transition: background 0.2s ease-in-out;
+}
+
+.upload-btn:hover, .download-btn:hover, .toggle-text-btn:hover {
+  background: #0056b3;
+}
+
+.loading {
+  margin-top: 1rem;
+  color: #888;
+}
+
+.text-box, .summary-box {
+  background: #fffbe6;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: 1px solid #ffe58f;
+}
+
+.question-list {
+  margin-top: 1rem;
+}
+
+.question-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.q-title {
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.hint {
+  font-style: italic;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+
+.question-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #495057;
+}
+
+.hint-text {
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.no-questions {
+  margin-top: 1rem;
+  text-align: center;
+  color: #ff4d4f;
+  font-weight: bold;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.custom-btn {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.custom-btn:hover {
+  background: #4338ca;
+}
+
+.upload-btn {
+  background: #f59e0b;
+}
+
+.upload-btn:hover {
+  background: #d97706;
+}
+
+.download-btn {
+  background: #10b981;
+}
+
+.download-btn:hover {
+  background: #059669;
+}
+
+.hidden {
+  display: none;
+}
+
