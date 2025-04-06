@@ -11,7 +11,7 @@ import pdfplumber
 import json
 import re
 
-genai.configure(api_key="AIzaS........2v9_n8RQEg")
+genai.configure(api_key="YOUR_API_KEY")
 app = FastAPI()
 
 # Allow frontend to access backend
