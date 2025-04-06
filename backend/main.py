@@ -89,8 +89,8 @@ Subject Notes:
         try:
             cleaned_questions = json.loads(cleaned_q)
         except Exception as e:
-            print("⚠️ Error parsing questions:", e)
-            cleaned_questions = [{"question": "❌ Failed to parse AI output.", "marks": 0}]
+            print("Error parsing questions:", e)
+            cleaned_questions = [{"question": "Failed to parse AI output.", "marks": 0}]
         
         # Step 3: Generate Topic and Summary
         summary_prompt = f"""
@@ -118,9 +118,9 @@ Subject Notes:
             topic = result_json.get("topic", "")
             summary = result_json.get("summary", "")
         except Exception as parse_error:
-            print("⚠️ JSON parsing error:", parse_error)
+            print("JSON parsing error:", parse_error)
             topic = ""
-            summary = "❌ Failed to generate summary properly. Please try again."
+            summary = " Failed to generate summary properly. Please try again."
 
         return {
             "extracted_text": text[:1000],
